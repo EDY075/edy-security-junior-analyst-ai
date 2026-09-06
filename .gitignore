@@ -1,4 +1,13 @@
-__pycache__/
-*.log
 .env
-.vscode/
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+node_modules/
+dist/
+*.log
+*.db
+*.sqlite*
+.DS_Store
+Thumbs.db
